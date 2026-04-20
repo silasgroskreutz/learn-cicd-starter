@@ -1,5 +1,5 @@
 https://github.com/silasgroskreutz/learn-cicd-starter/actions/workflows/ci/badge.svg
-![workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![workflow](https://github.com/github/docs/actions/workflows/ci.yml/badge.svg)
 
 # learn-cicd-starter (Notely)
 
