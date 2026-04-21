@@ -16,5 +16,8 @@ jobs:
       - name: Run tests
         run: go test ./... -cover
 
+      - name: Style job
+        run: test -z $(go fmt ./...)
+
       - name: Passing test
         run: (exit 0)
