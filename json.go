@@ -33,6 +33,6 @@ func respondWithJSON(w http.ResponseWriter, code int, payload interface{}) {
 		return err
 	}
 	if _, err := w.Write(dat); err != nil {
-		return err
+		return
 	}
 }
